@@ -8,9 +8,7 @@ mock_word_data = [
         "meanings": [
             {
                 "partOfSpeech": "noun",
-                "definitions": [
-                    {"definition": "A mock definition for testing."}
-                ],
+                "definitions": [{"definition": "A mock definition for testing."}],
             }
         ]
     }
