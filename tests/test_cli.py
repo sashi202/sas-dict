@@ -1,4 +1,3 @@
-
 from unittest.mock import patch
 from sas_dict.cli import fetch_word_data, main
 
@@ -13,6 +12,7 @@ mock_word_data = [
         ]
     }
 ]
+
 
 @patch("sas_dict.cli.fetch_word_data")
 def test_fetch_word_data(mock_fetch):
